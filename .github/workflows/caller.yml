@@ -13,5 +13,3 @@ jobs:
       id-token: write
       contents: read
     uses: zashk0-labs/bb-oidc-rwref-20260921-045231/.github/workflows/trusted.yml@main
-    secrets:
-      BB_REUSABLE_CANARY: ${{ secrets.BB_REUSABLE_CANARY }}
